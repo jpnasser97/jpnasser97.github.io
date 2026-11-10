@@ -1,0 +1,91 @@
+.footer-container {
+  background-color: #000000;
+  padding-bottom: 20px;
+}
+
+.contato {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+}
+
+.contato h2 {
+  font-size: 4rem;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #e0e0e0;
+  margin-left: -50px;
+}
+
+.contato p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #a3a3a3;
+}
+
+.footer-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-self: center;
+}
+
+.footer-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer-lista li {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.footer-lista a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-lista {
+  position: relative;
+}
+
+.footer-email::before {
+  content: "";
+  display: block;
+  background: url(../img/Email.svg) center center no-repeat;
+  width: 40px;
+  height: 20px;
+  position: absolute;
+  left: -50px;
+}
+
+.footer-fone::before {
+  content: "";
+  display: block;
+  background: url(../img/Telefone.svg) center center no-repeat;
+  width: 40px;
+  height: 20px;
+  position: absolute;
+  left: -50px;
+}
+
+.footer-linkedin::before {
+  content: "";
+  display: block;
+  background: url(../img/linkedin.svg) center center no-repeat;
+  width: 40px;
+  height: 20px;
+  position: absolute;
+  left: -50px;
+}
+
+.footer-container span {
+  color: #a3a3a3;
+  font-size: 18px;
+  display: block;
+  text-align: center;
+}
