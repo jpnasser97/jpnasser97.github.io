@@ -55,19 +55,18 @@
   font-size: 14px;
   color: #525252;
   text-transform: uppercase;
-  margin-bottom: 15px;
 }
 
 .formacao-curso {
   font-size: 18px;
   font-weight: bold;
   color: #ffffff;
+  flex: 1;
 }
 
 .formacao-local {
   font-size: 18px;
   color: #525252;
-  margin-top: auto;
 }
 
 .formacao-extra {
