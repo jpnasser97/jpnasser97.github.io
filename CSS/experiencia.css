@@ -28,6 +28,13 @@
   color: #141414;
 }
 
+.empresa-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0px 20px;
+}
+
 .empresa {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -36,7 +43,6 @@
   border: #e0e0e0 solid 1px;
   border-radius: 4px;
   padding: 10px 20px;
-  margin-bottom: 20px;
   align-items: start;
   position: relative;
 }
@@ -115,7 +121,6 @@
     grid-template-columns: 1fr;
     gap: 10px;
     padding: 10px;
-    margin: 10px 10px;
     position: relative;
   }
 
