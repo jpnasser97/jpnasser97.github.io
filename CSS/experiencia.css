@@ -91,11 +91,11 @@
     grid-template-columns: 1fr;
     gap: 30px;
     justify-items: center;
-    padding: 50px 20px;
+    padding: 50px 0px;
   }
 
   .experiencia h2 {
-    font-size: 4rem;
+    font-size: 3.8rem;
     text-align: center;
     word-break: keep-all;
     max-width: 100%;
@@ -107,7 +107,7 @@
   }
 
   .experiencia-texto {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
   }
 
@@ -115,6 +115,7 @@
     grid-template-columns: 1fr;
     gap: 10px;
     padding: 10px;
+    margin: 0px 10px;
     position: relative;
   }
 
