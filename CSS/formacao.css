@@ -144,3 +144,55 @@
   left: -4px;
   top: 20px;
 }
+
+@media (max-width: 600px) {
+  .formacao {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    justify-items: center;
+    padding: 50px 20px;
+  }
+
+  .formacao h2 {
+    font-size: 4rem;
+    text-align: center;
+    word-break: keep-all;
+    max-width: 100%;
+  }
+
+  .formacao-texto {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .formacao-texto br {
+    display: none;
+  }
+
+  .intensivo-titulo::after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    background: url(../img/cursos.svg) no-repeat center;
+    top: -2px;
+    left: 150px;
+  }
+
+  .idioma-titulo::after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    background: url(../img/idiomas.svg) no-repeat center;
+    top: -2px;
+    left: 70px;
+  }
+
+  .formacao-lista {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

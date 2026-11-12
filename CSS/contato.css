@@ -89,3 +89,27 @@
   display: block;
   text-align: center;
 }
+
+@media (max-width: 600px) {
+  .contato {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    justify-items: center;
+    padding: 50px 20px;
+  }
+
+  .contato h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .contato p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .footer-lista {
+    align-items: center;
+  }
+}

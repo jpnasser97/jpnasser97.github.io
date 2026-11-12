@@ -21,3 +21,26 @@
   padding: 10px 20px;
   display: block;
 }
+
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .header-menu {
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  .header-menu a {
+    padding: 10px;
+    font-size: 16px;
+    border: #000 solid 1px;
+    border-radius: 4px;
+    background: #eee;
+  }
+}
